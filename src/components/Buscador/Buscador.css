@@ -1,0 +1,92 @@
+.contenedor_principal {
+  background-image: url("../../img/fondo1.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100rem;
+  top: 0;
+  left: 0;
+}
+
+.listado {
+  margin-right: 1rem;
+  display: inline;
+}
+.listado ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.listado li {
+  width: 20rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(94, 82, 82, 0.1);
+  margin-bottom: 1rem;
+}
+.listado li:hover {
+  transform: scale(1.03);
+}
+.cnt {
+  padding-top: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-container div {
+  margin-top: 2rem;
+}
+.form-container button {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  background-color: rgb(155, 145, 145);
+  color: rgb(32, 31, 31);
+  font-weight: bold;
+  border-radius: 2px;
+  border: none;
+}
+.form-container button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.label {
+  padding-right: 10px;
+  color: white;
+  font-weight: bold;
+}
+.titulos {
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 1rem;
+  height: 2rem;
+}
+.movie_img {
+  height: 20rem;
+  width: 15rem;
+}
+.btn_fav {
+  background-color: transparent;
+  border: none; 
+  color: white;
+  font-weight: bold;
+}
+.btn_fav:hover {
+  background-size: auto;
+  cursor: pointer;
+}
+.btn_fav:focus {
+  color: red;
+}
+
+.busqueda {
+  font-weight: bold;
+}

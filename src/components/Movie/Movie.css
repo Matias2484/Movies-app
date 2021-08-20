@@ -1,0 +1,40 @@
+* {
+  font: 14px/22px "Lato", Arial, sans-serif;
+}
+.movie_card {
+  background-image: url("../../img/fondo1.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100rem;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.movie_poster {
+  justify-content: center;
+  width: 30rem;
+  margin-right: 2rem;
+  margin-top: 4rem;
+}
+
+.movie_info {
+  color: white;
+  margin-top: 4rem;
+}
+.movie_info p {
+  margin-bottom: 1rem;
+}
+.movie_title {
+  margin-bottom: 2rem;
+  font-size: 20px;
+  font-weight: bold;
+}
